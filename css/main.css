@@ -65,3 +65,7 @@ ul.posts li {
     background-color: purple;
     width: 100%;
 }
+#linkBox {
+    max-width: 50%
+    display: inline-block;
+}
