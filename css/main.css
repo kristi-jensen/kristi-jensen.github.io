@@ -89,8 +89,9 @@ ul.posts li {
     background-color: purple;
 }
 #linkBox {
-    max-width: 45%
+    max-width: 49%;
     display: inline-block;
+    padding: 1%;
 }
 .logo {
     display: inline-block;
