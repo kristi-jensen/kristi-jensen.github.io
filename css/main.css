@@ -83,7 +83,7 @@ footer {
 #tnt {
     background-color: purple;
 }
-#linkBox {
+.linkBox {
     max-width: 49%;
     display: inline-block;
     padding: 1%;
