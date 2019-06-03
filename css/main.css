@@ -61,15 +61,6 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
 #chrbio {
     background-image: url("/images/landing_01.jpg");
     background-repeat: no-repeat;
@@ -97,11 +88,9 @@ ul.posts li {
     display: inline-block;
     padding: 20px 2px;
 }
-
 .logo:hover {
     background: none;
 }
-
 .logo img {
     height: 60px;
 }
