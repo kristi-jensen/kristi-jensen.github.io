@@ -17,6 +17,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    vertical-align: text-bottom;
 }
 a {
     text-decoration: none;
@@ -24,6 +25,8 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    background-color: purple;
+
 }
 h1 {
     font-family: "Fredericka the Great", sans-serif;
