@@ -1,12 +1,13 @@
 
 body {
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     padding: 20px auto;
     width: 70%;
 }
 nav {
     background-color: rgba(0,0,0,0.05);
     border-bottom: 1px solid rgba(0,90,0, 0.5);
+    vertical-align: text-bottom;
 }
 nav ul, footer ul {
     font-family:'Raleway', 'Arial', 'Sans-Serif';
@@ -14,6 +15,7 @@ nav ul, footer ul {
     list-style: none;
     font-weight: 200;
     text-align: right;
+    vertical-align: text-bottom;
 }
 nav ul li, footer ul li {
     display: inline;
