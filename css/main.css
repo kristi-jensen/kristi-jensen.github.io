@@ -24,10 +24,9 @@ a:hover {
 h1 {
     font-family: "Fredericka the Great", sans-serif;
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: left;
     text-shadow: 1px 1px 2px 5px black;
-    background-color: purple;
 }
 h2 {
     font-size: 4.5em;
