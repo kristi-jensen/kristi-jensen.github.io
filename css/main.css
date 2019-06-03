@@ -76,10 +76,10 @@ ul.posts li {
 .RL {
     max-width: 33%;
     background-color: rgba(0,0,0,0.1);
+    display: inline-block;
 }
 #tnt {
     background-color: purple;
-    width: 100%;
 }
 #linkBox {
     max-width: 50%
