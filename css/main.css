@@ -4,7 +4,7 @@ body {
     width: 70%;
 }
 nav {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.05);
     border-bottom: 1px solid rgba(0,90,0, 0.5);
 }
 nav ul, footer ul {
@@ -78,9 +78,10 @@ ul.posts li {
     z-index: 100;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
 }
 .RL {
-    max-width: 33%;
+    max-width: 32%;
     background-color: rgba(0,0,0,0.1);
     display: inline-block;
     padding: 1%;
