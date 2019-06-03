@@ -25,10 +25,8 @@ h1 {
     font-family: "Fredericka the Great", sans-serif;
     font-weight: 200;
     font-size: 1.5em;
-    line-height: 1em;
     padding: 4% 0;
     text-align: left;
-    text-decoration: none;
     text-shadow: 1px 1px 2px 5px black;
 }
 h2 {
