@@ -73,6 +73,10 @@ ul.posts li {
     margin-left: auto;
     margin-right: auto;
 }
+.RL {
+    max-width: 33%;
+    background-color: rgba(0,0,0,0.1);
+}
 #tnt {
     background-color: purple;
     width: 100%;
