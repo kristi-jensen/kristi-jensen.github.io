@@ -62,3 +62,7 @@ ul.posts li {
     margin-left: auto;
     margin-right: auto;
 }
+#tnt {
+    background-color: purple;
+    width: 100%;
+}
