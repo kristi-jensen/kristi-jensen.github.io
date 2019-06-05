@@ -5,7 +5,7 @@
 }
 
 nav {   
-    background-color: rgba(240,240,240, 0.9);
+    background-color: rgba(240,240,240, 1);
     border-bottom: 1px solid rgba(0,90,0, 0.5);
     border-top: 1px solid rgba(0,90,0, 0.5);
     position: fixed;
@@ -26,7 +26,7 @@ footer ul {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: rgba(0,90,0, 1);
 }
 a:hover {
     text-decoration: underline;
@@ -72,7 +72,7 @@ footer {
 #BLLogo {
     position: relative; 
     display: block;
-    width: 250px;
+    width: 280px;
     margin: 0 auto;
     z-index: 200;
 }
