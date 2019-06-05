@@ -71,13 +71,11 @@ footer {
     margin: 0 auto;
 }
 .navLogo {
-    max-width: 100px;
     width: 50%;
 
 }
 .navdiv {
-    max-width: 100px;
-    margin: 0 1%;
+    width: 25%;
     text-align: center;
     display: inline-block;
 }
@@ -93,6 +91,9 @@ nav {
     position: relative;
     text-align: right;
     
+}
+.navlogo {
+    max-width: 100px;
 }
 .navdiv {
     margin: 0 10px;
