@@ -6,8 +6,8 @@
 
 nav {   
     background-color: rgba(240,240,240, 1);
-    border-bottom: 1px solid #54B52D;
-    border-top: 1px solid #54B52D;
+    border-bottom: 1px solid #74975c;
+    border-top: 1px solid #74975c;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -26,7 +26,7 @@ footer ul {
 
 a {
     text-decoration: none;
-    color: #54B52D;
+    color: #74975c;
 }
 a:hover {
     text-decoration: underline;
