@@ -5,13 +5,14 @@
 }
 
 nav {   
-    background-color: rgba(200,200,200, 1);
+    background-color: rgba(220,220,220, 1);
     border-bottom: 1px solid rgba(0,90,0, 0.5);
     border-top: 1px solid rgba(0,90,0, 0.5);
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
+    z-index: -1;
 }
 footer ul {
     font-family:'Raleway', 'Arial', 'Sans-Serif';
