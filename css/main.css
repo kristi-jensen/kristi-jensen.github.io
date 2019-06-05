@@ -5,7 +5,7 @@
 }
 
 nav {   
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(20,20,20, 1);
     border-bottom: 1px solid rgba(0,90,0, 0.5);
     border-top: 1px solid rgba(0,90,0, 0.5);
     position: fixed;
@@ -79,7 +79,7 @@ footer {
     margin: 0 1%;
     text-align: center;
     display: inline-block;
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 @media (min-width: 768px) {
