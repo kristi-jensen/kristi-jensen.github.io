@@ -79,7 +79,7 @@ footer {
     margin: 0 1%;
     text-align: center;
     display: inline-block;
-    font-size: 1.4em;
+    font-size: 14pt;
 }
 
 @media (min-width: 768px) {
