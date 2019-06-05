@@ -70,6 +70,7 @@ footer {
     display: block;
     width: 250px;
     margin: 0 auto;
+    z-index: 200;
 }
 .navLogo {
     width: 50%;
