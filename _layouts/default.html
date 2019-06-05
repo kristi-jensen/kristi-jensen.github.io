@@ -6,23 +6,33 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<header>
-			<img id="BLLogo" src="images/BLLogoSm2.png">
-			<div id="nav">
-				<input id="dropbtn" type="checkbox" checked>
-				<label for="dropbtn"><span id="navig">Menu</span></label>
-				<div class="dropdown-content">
-	        		<a href="/">Home</a>
-		        	<a href="/research">Research</a>
-	        		<a href="/people">People</a>
-	        		<a href="/publications">Publications</a>
-					<a href="/pictures">Pictures</a>
-					<a href="/links">Links</a>
-					<a href="/positions">Positions</a>
-					<a href="/contacts">Contact Us</a>
-	    		</div>
+		<img id="BLLogo" src="BLLogoSm2.png">
+		<nav>
+			<div class="navdiv"style="width: 20%; display: inline-block; text-align: center; margin: 0 1%;">
+				<a href="/">
+					<img class="navLogo" src="nav_logo-04.png" style="width: 50%";>
+					<p>Home</p>
+				</a>
 			</div>
-		</header>
+			<div class="navdiv" style="width: 20%; display: inline-block; text-align: center; margin: 0 1%;">
+				<a href="/science">
+					<img class="navLogo" src="nav_logo-02.png" style="width: 50%">
+					<p>Science</p>
+				</a>
+			</div>
+			<div class="navdiv" style="width: 20%; display: inline-block; text-align: center; margin: 0 1%;">
+				<a href="/people">
+					<img class="navLogo" src="nav_logo-01.png" style="width: 50%">
+					<p>People</p>
+				</a>
+			</div>
+			<div class="navdiv" style="width: 20%; display: inline-block; text-align: center; margin: 0 1%;">
+				<a href="/contact">
+					<img class="navLogo" src="nav_logo-03.png" style="width: 50%">
+					<p>Contact Us</p>
+				</a>
+			</div>
+		</nav>
 		<div class="container">
 		
 		{{ content }}
