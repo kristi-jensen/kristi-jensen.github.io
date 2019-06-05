@@ -65,10 +65,11 @@ footer {
     font-size: .8em;
 }
 #BLLogo {
-    position: fixed; 
+    position: absolute; 
     width: 250px;
     left: 50%;
     margin-left: -125px;
+    margin-top: 10px
 }
 .navLogo {
     max-width: 100px;
