@@ -71,20 +71,25 @@ footer {
     margin-left: -125px;
 }
 .navLogo {
-    max-width: 50px;
+    max-width: 100px;
     width: 50%;
 
 }
 .navdiv {
     max-width: 100px;
     margin: 0 1%;
-    text-align: center; 
+    text-align: center;
+    display: inline-block;
 }
 
 
 @media (min-width: 768px) {
 body {
-    
+    max-width: 1024px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+
 }
 nav {   
     position: relative;
