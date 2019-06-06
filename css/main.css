@@ -107,7 +107,7 @@ p {
     text-align: center;
 } 
 #chrbioH {
-    color: rgba(255,255,255,0.9);
+    color: rgba(0,0,0,0.9);
     text-align: left;
     padding: 7% 0 5% 0;
 }
@@ -128,7 +128,7 @@ p {
     text-decoration: none;
 }
 #chrbio p{
-    color: white;
+    color: ;
     text-align: justify;
     margin: 0 10% 0 5%;
 }
