@@ -109,7 +109,7 @@ p {
 #chrbioH {
     color: rgba(255,255,255,0.9);
     text-align: left;
-    margin: 5% 0;
+    padding: 5% 0;
 }
 .button {
     background-color: rgba(255,255,255,0.9);
