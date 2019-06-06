@@ -64,6 +64,7 @@ p {
 }
 #footer div {
     max-width: 33%;
+    margin-bottom: 100px;
 }
 .AffLogo {
     max-width: 100%;
