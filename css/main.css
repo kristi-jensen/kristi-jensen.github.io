@@ -87,6 +87,8 @@ p {
     text-align: center;
     display: inline-block;
     font-size: 12pt;
+    overflow:visible;
+    white-space:nowrap;
 }
 
 @media (min-width: 768px) {
