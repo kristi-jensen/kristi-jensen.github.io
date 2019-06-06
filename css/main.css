@@ -63,11 +63,9 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 100px;
 }
 #footer div {
     max-width: 33%;
-    margin-bottom: 100px;
 }
 .AffLogo {
     max-width: 100%;
@@ -99,14 +97,12 @@ p {
     font-weight: bold;
 }
 .bs{
-    height: 150px;
-    background-color: purple;
+    height: 100px;
 }   
 @media (min-width: 768px) {
 body {
     max-width: 1024px;
     margin: 0 auto;
-
 }
 nav {   
     position: relative;
