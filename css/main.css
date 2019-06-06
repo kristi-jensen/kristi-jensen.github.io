@@ -41,7 +41,7 @@ p {
     color: ;
 }
 #nav {   
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(240,240,240,1);
     border-bottom: 1px solid rgba(0,90,0, 0.5);
     border-top: 1px solid rgba(0,90,0, 0.5);
     position: absolute;
@@ -82,7 +82,7 @@ p {
 
 }
 .navdiv {
-    width: 20%;
+    width: 23%;
     margin: 0 1%;
     text-align: center;
     display: inline-block;
