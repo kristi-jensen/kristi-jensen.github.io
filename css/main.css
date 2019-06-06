@@ -101,6 +101,8 @@ p {
     height: calc(100vh - 180px);
     background-image: url("/images/landing_01.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
     margin: 0;
 } 
 #chrbioH {
