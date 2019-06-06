@@ -94,7 +94,8 @@ p {
     font-weight: bold;
 }
 .bs{
-    height: 100px;
+    height: 150px;
+    background-color: purple;
 }   
 @media (min-width: 768px) {
 body {
