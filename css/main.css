@@ -99,7 +99,7 @@ p {
 }
 #chrbio {
     height: calc(100vh - 180px);
-    background-image: url("images/landing_01.jpg");
+    background-image: url("/images/landing_01.jpg");
     background-size: cover;
     margin: 0;
 } 
