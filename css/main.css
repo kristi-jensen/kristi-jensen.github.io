@@ -60,6 +60,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 100px;
 }
 #footer div {
     max-width: 33%;
