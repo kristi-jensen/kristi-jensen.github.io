@@ -104,6 +104,7 @@ p {
     background-repeat: no-repeat;
     background-position: center; 
     margin: 0;
+    text-align:center;
 } 
 #chrbioH {
     color: rgba(255,255,255,0.9);
@@ -111,17 +112,18 @@ p {
 }
 #button {
     background-color: rgba(255,255,255,0.9);
-    margin: 0, auto;
+    margin: 10%, auto;
     text-align: center;
+    height: 40px;
+    width: 100px;
 }
-button a {
+#button a {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 1.3em;
-    color: ;
 }
 #chrbio p{
-    color: black;
+    color: white;
     text-align: justify;
     margin: 0 10% 0 5%;
 }
