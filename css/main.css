@@ -99,7 +99,7 @@ p {
 }
 #chrbio {
     height: calc(100vh - 180px);
-    background-image: url("/images/landing_01.jpg");
+    background: linear-gradient(rgb(116,151,92,0.1), rgb(116,151,92,0));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -112,7 +112,7 @@ p {
     padding: 7% 0 5% 0;
 }
 .button {
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(116,151,92);
     margin: 10% auto;
     text-align: center;
     padding: 10px 10px;
@@ -122,6 +122,10 @@ p {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 1.3em;
+    color: white;
+}
+.button a:hover {
+    text-decoration: none;
 }
 #chrbio p{
     color: white;
