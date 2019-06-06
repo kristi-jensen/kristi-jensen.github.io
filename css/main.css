@@ -109,13 +109,14 @@ p {
 #chrbioH {
     color: rgba(255,255,255,0.9);
     text-align: left;
-    padding: 5% 0;
+    padding: 7% 0 5% 0;
 }
 .button {
     background-color: rgba(255,255,255,0.9);
     margin: 10% auto;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    max-width: 50%;
 }
 .button a {
     font-family: "Raleway", sans-serif;
