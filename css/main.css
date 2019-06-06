@@ -86,12 +86,14 @@ p {
     margin: 0 1%;
     text-align: center;
     display: inline-block;
-    font-size: 12pt;
     font-weight:bold;
     overflow:visible;
     white-space:nowrap;
 }
-
+.navtext {
+    font-size: 12pt;
+    font-weight: bold;
+}
 @media (min-width: 768px) {
 body {
     max-width: 1024px;
