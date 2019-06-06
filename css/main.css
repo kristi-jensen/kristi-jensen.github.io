@@ -69,12 +69,13 @@ p {
 }
 #logodiv {
     width:100%;
+    height: 80px;
     border-bottom: 1px solid #d5d5d5;
 }
 #BLLogo {
     position: relative; 
     display: block;
-    width: 280px;
+    max-width: 280px;
     margin: 0 auto;
     z-index: 200;
 }
@@ -95,7 +96,19 @@ p {
 }
 .bs{
     height: 100px;
-}   
+}
+#chrbio {
+    height: calc(100vh - 180px);
+    background-image: url("images/landing_01.jpg");
+    background-size: cover;
+    margin: 0;
+} 
+#chrbioH {
+    color: rgba(255,255,255,0.9)
+}
+#chrbio p{
+    color: white;
+}
 @media (min-width: 768px) {
 body {
     max-width: 1024px;
