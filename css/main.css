@@ -104,12 +104,14 @@ p {
     background-repeat: no-repeat;
     background-position: center; 
     margin: 0;
+    padding: 10%;
 } 
 #chrbioH {
-    color: rgba(255,255,255,0.9)
+    color: rgba(255,255,255,0.9);
 }
 #chrbio p{
     color: white;
+    text-align: justify;
 }
 @media (min-width: 768px) {
 body {
