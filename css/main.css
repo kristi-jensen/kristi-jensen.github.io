@@ -100,10 +100,10 @@ p {
 }
 #chrbio {
     height: calc(100vh - 160px);
-    background: linear-gradient(rgb(116,151,92,0.1), rgb(116,151,92,0));
+    background: url("/images/tig-slider.jpf");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: right top; 
     margin: 0;
     text-align: center;
 } 
