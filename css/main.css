@@ -116,9 +116,7 @@ p {
     margin: 10% auto;
     text-align: center;
     padding: 10px 10px;
-    max-width: 50%;
-}
-.button a {
+    width: 120px;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 1.3em;
@@ -126,8 +124,6 @@ p {
 }
 .button:hover {
     background-color: rgba(116,151,92,0.9);
-}
-.button a:hover {
     text-decoration: none;
 }
 #chrbio p{
