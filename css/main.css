@@ -100,7 +100,7 @@ p {
 }
 #chrbio {
     height: calc(100vh - 160px);
-    background: url("/images/tig-slider.jpf");
+    background: ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top; 
@@ -108,11 +108,11 @@ p {
     text-align: center;
 } 
 #chrbioH {
-    color: rgba(0,0,0,0.9);
-    padding: 7% 0 3% 0;
+    color: #d5d5d5;
+    padding: 7% 0 0 0;
 }
 .button {
-    background-color: rgba(116,151,92);
+    background-color: rgba(116,151,92,0.9);
     margin: 10% auto;
     text-align: center;
     padding: 10px 10px;
@@ -124,6 +124,9 @@ p {
     font-size: 1.3em;
     color: white;
 }
+.button:hover {
+    background-color: rgba(116,151,92,0.9);
+}
 .button a:hover {
     text-decoration: none;
 }
@@ -131,6 +134,7 @@ p {
     color: ;
     text-align: justify;
     margin: 0 10% 0 5%;
+    text-align-last: center;
 }
 .LI {
     border-radius: 50%;
