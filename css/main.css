@@ -138,8 +138,9 @@ p {
     padding: 1%;
     margin: 1%
 }
-#LI 1 {
-    
+#research_logos{
+    clear: both;
+    padding: 3%;
 }
 @media (min-width: 768px) {
 body {
