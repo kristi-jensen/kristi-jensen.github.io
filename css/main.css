@@ -119,7 +119,8 @@ p {
     font-weight: bold;
     font-size: 1.3em;
     color: white;
-    width: 50%;
+    width: auto;
+    width: 80%;
 }
 .button:hover {
     background-color: rgba(116,151,92,0.9);
