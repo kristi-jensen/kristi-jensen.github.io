@@ -181,6 +181,7 @@ body {
     left: 0;
     top: 150px;
     bottom: auto;
+    border-radius: 0 10px 10px 0;
 }
 .navdiv {
     height: 100px;
