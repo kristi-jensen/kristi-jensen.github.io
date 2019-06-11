@@ -122,7 +122,8 @@ p {
     font-size: 1.3em;
     color: white;
     width: auto;
-    max-width: 80%;
+    width: 200px;
+    border-radius: 10px;
 }
 .button:hover {
     background-color: rgba(116,151,92,1);
@@ -154,6 +155,7 @@ body {
 #head {
     position: fixed;
     width: 100%;
+    height: 150px;
     background-color: rgb(116,151,92,0.1);
     border-bottom: 1px solid #d5d5d5;
 }
@@ -192,7 +194,7 @@ body {
     height: 80px;
 }
 #chrbio {
-    clear: both;
+    margin-top: 150px;
     
 } 
 }
