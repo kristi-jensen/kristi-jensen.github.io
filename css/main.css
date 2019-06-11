@@ -182,6 +182,7 @@ body {
     top: 150px;
     bottom: auto;
     border-radius: 0 10px 10px 0;
+    flex-direction: column;
 }
 .navdiv {
     height: 100px;
