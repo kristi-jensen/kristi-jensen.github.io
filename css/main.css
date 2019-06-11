@@ -151,12 +151,6 @@ body {
     margin: 0 auto;
     position: relative;
 }
-#nav {   
-    position: relative;
-    text-align: right;
-    
-}
-
 #head {
     position: fixed;
     width: 100%;
@@ -172,7 +166,7 @@ body {
 #BLLogo {
     position: relative;
     margin: 10px;
-    display: inline-block;
+    display: inline;
     width: 100%;
     height: 80px;
 }
@@ -181,9 +175,10 @@ body {
     position: relative;
     height: 100px;
     text-align: right;
-    display: inline-block;
+    display: inline;
     z-index: 199;
     background: none;
+    border: none;
 }
 .navdiv {
     height: 100%;
