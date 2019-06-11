@@ -168,8 +168,8 @@ body {
     position: relative;
     margin: 10px;
     display: inline;
-    width: 100%;
-    height: 80px;
+    width: auto;
+    max-height: 80px;
 }
 #nav {   
     width: 60%;
@@ -192,8 +192,7 @@ body {
     height: 80px;
 }
 #chrbio {
-    margin-top: 100px;
-    
+    padding-top: 100px;
 } 
 }
 
