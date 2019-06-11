@@ -86,7 +86,7 @@ p {
     width: 50%;
 }
 .navdiv {
-    width: 23%;
+    width: auto;
     margin: 0 1%;
     text-align: center;
     display: inline-block;
@@ -172,11 +172,11 @@ body {
     max-height: 80px;
 }
 #nav {   
-    width: 60%;
+    width: 50%;
     position: relative;
     height: 100px;
     text-align: right;
-    display: inline;
+    display: inline-flex;
     z-index: 199;
     background: none;
     border: none;
