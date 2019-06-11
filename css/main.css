@@ -156,12 +156,9 @@ body {
     text-align: right;
     
 }
-.navlogo {
-    max-width: 100px;
-}
-.navdiv {
-    margin: 0 10px;
-    max-width: 100px;
+
+#head {
+    position: fixed;
 }
 #BLLogo {
     position: relative;
@@ -170,14 +167,12 @@ body {
     width: auto;
     height: 80px;
 }
-#head {
-    
-}
 #nav {   
+    float: right;
     position: relative;
     height: 80px;
     text-align: right;
-    display: relative;
+    display: inline-block;
     z-index: 199;
 }
 .navdiv {
@@ -186,6 +181,10 @@ body {
     margin: 10px;
     display: inline-block;
     overflow:visible;
+    max-width: 100px;
+}
+.navlogo {
+    max-width: 100px;
 }
 }
 
