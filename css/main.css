@@ -159,11 +159,15 @@ body {
 
 #head {
     position: fixed;
-    width: 100%
+    width: 100%;
+    background-color: rgb(116,151,92,0.1);
+    border-bottom: 1px solid #d5d5d5;
 }
 #logodiv {
     height: 100px;
     width: 30%;
+    background: none;
+    border: none;
 }
 #BLLogo {
     position: relative;
@@ -173,7 +177,7 @@ body {
     height: 80px;
 }
 #nav {   
-    width: 70%;
+    width: 60%;
     position: relative;
     height: 100px;
     text-align: right;
