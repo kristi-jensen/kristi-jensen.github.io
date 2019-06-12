@@ -101,6 +101,7 @@ p {
 }
 #chrbio {
     height: 100%;
+    max-width: 1024px;
     background-color: rgb(116,151,92,0.05);
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,7 +200,8 @@ body {
     height: 80px;
 }
 #chrbio {
-    padding-top: 100px;
+    padding-top: 100px 100px 100px 10px;
+    
 } 
 }
 
