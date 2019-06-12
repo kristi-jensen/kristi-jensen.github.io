@@ -151,6 +151,8 @@ p {
 body {
     position: relative;
     max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
 }
 #head {
     position: fixed;
@@ -163,6 +165,8 @@ body {
 #logodiv {
     width: 100%;
     margin: 0 auto;
+    background: none;
+    border: none;
 }
 #BLLogo {
     position: relative;
@@ -170,16 +174,15 @@ body {
     display: inline;
     width: auto;
     max-height: 80px;
+    background: none;
+    border: none;
 }
 #nav {   
-    width: 50%;
-    height: 100px;
-    text-align: right;
-    display: block;
+    width: 100px;
     z-index: 199;
     border-right: 1px solid rgba(0,90,0, 0.5);
     left: 0;
-    top: 150px;
+    top: 120px;
     bottom: auto;
     border-radius: 0 10px 10px 0;
     flex-direction: column;
@@ -187,7 +190,7 @@ body {
 .navdiv {
     height: 100px;
     width: auto;
-    display: inline-block;
+    display: block;
     overflow: visible;
     max-width: 100px;
 }
