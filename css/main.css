@@ -22,8 +22,8 @@ h1 {
 }
 h2 {
     font-size: 4em;
-    font-family:'Reenie Beanie', 'Arial', 'Sans-Serif';
-    letter-spacing: -0.12em;
+    font-family:'Oswald', 'Arial', 'Sans-Serif';
+    font-weight: 700;
 }
 h3 {
     color: black;
