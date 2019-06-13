@@ -46,8 +46,7 @@ p {
 
 #nav {   
     background-color: rgba(240,240,240,1);
-    border-bottom: 1px solid rgba(0,90,0, 0.5);
-    border-top: 1px solid rgba(0,90,0, 0.5);
+    border: 1px solid rgba(0,90,0, 0.5);
     position: fixed;
     text-align: center;
     display: flex;
@@ -161,9 +160,10 @@ p {
     #nav {
         top: 0;
         left: 0;
-        width: 100px;
+        width: auto;
         height: 100%;
         flex-direction: column;
+        padding: 0 1%;
     }
 }
 @media (min-width: 768px) {
