@@ -24,6 +24,7 @@ h2 {
     font-size: 4em;
     font-family:'Oswald', 'Arial', 'Sans-Serif';
     font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 h3 {
     color: black;
@@ -165,7 +166,7 @@ p {
         background-position: center;
         background-size: cover;
     }
-    #chrbioH, chrbio p {
+    #chrbioH, #chrbio p {
         color: white;
     }
 }
