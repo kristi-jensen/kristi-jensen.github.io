@@ -1,0 +1,48 @@
+.reference {
+  font-weight: 600;
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  padding-bottom: 7px; }
+
+.title {
+  font-size: 1.4em;
+  font-weight: 200;
+  padding: .3% 0 .3%; }
+
+.referencebox {
+  padding: 0 0 5% 5%; }
+
+.yearBox {
+  margin: 5px auto;
+  width: 100%;
+  background-image: -webkit-gradient(linear, 0 0, 0 50%, from(#030), to(transparent));
+  background-image: -webkit-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: -moz-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: -o-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: linear-gradient(90deg, transparent, #030, transparent);
+  -moz-background-size: 50% 1px;
+  background-size: 50% 1px;
+  background-position: 50% 50%,0 0;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+.pubIcon {
+  float: left;
+  width: auto;
+  height: 80px;
+  margin: 0 2%;
+  border: 1px solid black; }
+
+.year {
+  font-weight: 600;
+  font-size: 1.6em;
+  text-align: center;
+  color: #005a00;
+  padding: 5px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: inline-block; }
+
+#bodyPublications {
+  text-align: center; }
