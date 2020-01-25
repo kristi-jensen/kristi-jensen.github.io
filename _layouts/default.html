@@ -1,80 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
-	</head>
-	<body>
-		<div id="head">
-			<div id="logodiv">
-				<img id="BLLogo" src="/images/BLLogoSm2.png">
-			</div>
-			<div id="nav">
-				<div class="navdiv">
-					<a href="/">
-						<img class="navLogo" src="/images/nav_logo-04.png">
-						<p class="navtext">Home</p>
-					</a>
-				</div>
-				<div class="navdiv">
-					<a href="/science">
-						<img class="navLogo" src="/images/nav_logo-02.png" >
-						<p class="navtext">Science</p>
-					</a>
-				</div>
-				<div class="navdiv" >
-					<a href="/people">
-						<img class="navLogo" src="/images/nav_logo-01.png" >
-						<p class="navtext">People</p>
-					</a>
-				</div>
-				<div class="navdiv">
-					<a href="/join">
-						<img class="navLogo" src="/images/nav_logo-05.png" >
-						<p class="navtext">Join Us</p>
-					</a>
-				</div>
-				<div class="navdiv">
-					<a href="/contact">
-						<img class="navLogo" src="/images/nav_logo-03.png" >
-						<p class="navtext">Contact</p>
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="container">
+  	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+    	<title>{{ page.title }}</title>
+	    	<link rel="stylesheet" href="/assets/css/styles.css">
+	    	<link rel="stylesheet" href="/assets/css/{{ page.css }}">
+	  </head>
+  	<body>
+	  	<div id="logodiv">
+	  		<img id="DNA" src="/images/BLLogo.svg" />
 		
-		{{ content }}
+
+	    {% include navigation.html %}
+</div>
+	    {{ content }}
+
+
+
+	    
+	    <div id="footer">
+			<h4>Affiliations &amp; Funding</h4>
+			<div id="footerflex">
+				<div>
+					<a class="logo left" href="http://www.uni-mainz.de/" target="_blank">
+						<img class="AffLogo"  src="/images/JGUS.png" />
+					</a>
+				</div>
+				<div>
+					<a class="logo right" href="https://www.imb.de/" target="_blank">
+						<img class="AffLogo" src="/images/IMBS.png" />
+					</a>
+				</div>
+				<div>
+					<a class="logo left" href="https://www.humboldt-foundation.de/web/home.html" target="_blank">
+						<img class="AffLogo"  src="/images/AvH_LogoS.png" />
+					</a>
+				</div>
+				<div>
+					<a class="logo left" href="https://www.sfb1361.de/" target="_blank">
+						<img class="AffLogo"  src="/images/sfb1361.svg" />
+					</a>
+				</div>
+				<div>
+					<a class="logo left" href="https://www.gfk.uni-mainz.de/prof-dr-peter-baumann/" target="_blank">
+						<img class="AffLogo"  src="/images/GFK.jpg" />
+					</a>
+				</div>
+				<div>
+					<a class="logo left" href="http://gepris.dfg.de/gepris/OCTOPUS?beginOfFunding=&bewilligungsStatus=running&context=projekt&continentId=%23&countryKey=%23%23%23&einrichtungsart=-1&fachlicheZuordnung=%23&findButton=historyCall&gefoerdertIn=&index=0&keywords_criterion=Peter+Baumann&location=Mainz&null=Name+und%2Foder+Vorname&nurProjekteMitAB=false&oldContinentId=%23&oldCountryId=%23%23%23&oldSubContinentId=%23%23&oldpeo=%23&peo=%23&subContinentId=%23%23&task=doSearchExtended&teilprojekte=true&zk_transferprojekt=false" target="_blank">
+						<img class="AffLogo"  src="/images/DFG.jpg" />
+					</a>
+				</div>
+				<div>
+					<a class="logo left" href="https://www.imb.de/about-imb/joint-research-initiatives/genevo/" target="_blank">
+						<img class="AffLogo"  src="/images/GeneEvo.png" />
+					</a>
+				</div>
+			</div>
 		
-		</div><!-- /.container -->
-		<div id="footer">
-			<div>
-				<a class="logo right" href="https://www.imb.de/" target="_blank">
-					<img class="AffLogo" src="/images/IMBS.png" />
-				</a>
-			</div>
-			<div>
-				<a class="logo left" href="https://www.humboldt-foundation.de/web/home.html" target="_blank">
-					<img class="AffLogo"  src="/images/AvH_LogoS.png" />
-				</a>
-			</div>
-			<div>
-				<a class="logo left" href="http://www.uni-mainz.de/" target="_blank">
-					<img class="AffLogo"  src="/images/JGUS.png" />
-				</a>
-			</div>
-		</div>
-		<div class="bs">
-		</div>
-	</body>
+		<div id="services">
+			<p>
+				<a href="/sitemap.html">Sitemap</a>  |  
+				<a href="/imprint.html" class="">Imprint</a>  |  
+				<a href="/privacy.html" class="">Privacy Policy</a>
+			</p>
+		</div></div>
+	  	<div class="bs">
+		</div>  
+ 	</body>
 <div>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 <script>
  WebFont.load({
     google: {
-      families: ['Raleway:200', 'Oswald:700']
+      families: ['Raleway:200, 400, 700', 'Oswald:700', 'Cormorant Garamond:400,700']
     }
   });
 </script> 
