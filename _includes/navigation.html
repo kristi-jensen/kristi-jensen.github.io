@@ -1,0 +1,11 @@
+<nav>
+  {% for item in site.data.navigation %}
+    <div class="navdiv" {% if page.url == item.link %}id="current"{% endif %}>
+	    <a href="{{ item.link }}" >
+	    	<img src="images/nav_logo{{item.image}}.png" class="navLogo" />
+	    	<p>{{ item.name }}</p>
+	    </a>
+	</div>
+  {% endfor %}
+</nav>
+<div id="navclear"></div>
