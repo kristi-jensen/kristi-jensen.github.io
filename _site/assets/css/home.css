@@ -1,0 +1,338 @@
+html {
+  background-image: url("/images/landing_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#second {
+  height: auto;
+  position: relative;
+  padding: 5vh 3vw; }
+
+#third {
+  background-color: white;
+  text-align: center; }
+
+#second h3 {
+  color: white; }
+
+.chrbio {
+  height: calc(100vh - 160px);
+  background-color: white;
+  background-image: url("/images/meiosis.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right; }
+
+#join {
+  text-align: center;
+  margin: 20px; }
+
+#chrbioH {
+  padding: 20vh 0 0 5vw; }
+
+#chrbioS {
+  max-width: 600px;
+  text-align: left;
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 5vw; }
+
+#chrbioS p {
+  font-weight: 400;
+  text-align: justify;
+  margin: 15px 10% 0 5%;
+  text-align-last: center;
+  display: block; }
+
+#blurb {
+  padding: 20px; }
+
+#chrbio a {
+  text-align: center; }
+
+#research_logos {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center; }
+
+.RL {
+  border-top: 5px solid #74975c;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  border-bottom-right-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  max-width: 300px;
+  text-align: center;
+  padding: 10px 20px 50px 20px; }
+
+.RL h3 {
+  text-align: center;
+  display: block;
+  vertical-align: bottom; }
+
+.rl {
+  width: auto;
+  text-align: left;
+  display: inline;
+  vertical-align: bottom;
+  margin: 0 auto; }
+
+#activity {
+  padding: 0 10px; }
+
+.NewsDate {
+  font-weight: 400; }
+
+.pubnews {
+  border-top: 3px solid #553e69; }
+
+.reference {
+  font-weight: 200;
+  font-size: 1em;
+  color: black;
+  text-align: left; }
+
+.title {
+  font-size: 1.2em;
+  padding-top: 10px; }
+
+.NewsDate {
+  margin: 0 0 1%;
+  width: 100%;
+  color: #030;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#030), to(transparent));
+  background-image: -webkit-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: -moz-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: -o-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: linear-gradient(90deg, transparent, #030, transparent);
+  -moz-background-size: 100% 1px;
+  background-size: 100% 1px;
+  background-position: 0 100%,0 0;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-top: 1%;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+
+.pubIcon {
+  width: auto;
+  height: auto;
+  margin: 2%;
+  border: 1px solid black; }
+
+#pbio {
+  padding: 3vh 3vw;
+  text-align: center; }
+
+#pub-slider {
+  position: relative;
+  margin: 0;
+  overflow-x: hidden;
+  width: 100vw; }
+
+#pubbutton {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  margin: 0 auto; }
+
+.slide {
+  margin: 10px 50px;
+  position: relative;
+  overflow: hidden; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: 2000;
+  background: rgba(85, 62, 105, 0.3); }
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev {
+  left: 0; }
+
+.next:hover, .prev:hover {
+  background: rgba(85, 62, 105, 0.4);
+  text-decoration: none; }
+
+#newsdiv {
+  background-color: white;
+  margin: 0;
+  width: 330px;
+  height: auto;
+  text-align: center;
+  overflow-x: hidden;
+  display: inline-block;
+  padding-top: 5px; }
+
+.dots {
+  text-align: center; }
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(153, 143, 107, 0.9);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #70975C; }
+
+#newsbox {
+  width: 330px;
+  position: relative; }
+
+#newsflex {
+  display: flex;
+  flex-flow: row nowrap;
+  width: calc(320px * 6 + 10px);
+  margin-left: 0px; }
+
+#pubbox {
+  position: relative;
+  width: auto; }
+
+#pubflex {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  width: calc((100vw - 330px) * 6);
+  margin-left: 0px; }
+
+.news {
+  border-top: 3px solid #74975c;
+  margin: 5px;
+  background-color: rgba(211, 212, 169, 0.5);
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  border-bottom-right-radius: 10px;
+  flex-grow: 1;
+  padding: 10px;
+  width: 300px; }
+
+.newsText {
+  width: 300px; }
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  #chrbioH {
+    padding: 10vh 0 0 5vw; } }
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .chrbio {
+    padding-left: 15%; }
+
+  #chrbioH {
+    font-size: 10vw; }
+
+  .chrbio {
+    height: 100%; }
+
+  #pubflex {
+    width: calc((100vw - 180px) * 6); }
+
+  #bottom-flex {
+    possition: absolute;
+    left: 0; }
+
+  #pub-slider {
+    text-align: center;
+    width: calc(100vw-80px);
+    background: blue;
+    margin-right: 5px;
+    overflow: scroll; }
+
+  .slide {
+    width: calc(100vw-180px);
+    background: yellow; } }
+@media (min-width: 768px) {
+  #research_logos {
+    display: flex; }
+
+  .chrbio {
+    height: calc(100vh - 80px); }
+
+  #chrbio p {
+    font-weight: 1.4em; }
+
+  .RL {
+    margin: 5px;
+    width: auto;
+    max-width: 350px; }
+
+  #chrbioH {
+    font-size: 8vw; }
+
+  #activity {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: center; }
+
+  .recpub {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    margin: 0 5px;
+    max-width: 33%; }
+
+  #peterpicbox {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 2vh 2vw;
+    float: left; }
+
+  #pbiotext {
+    margin: 2vh 2vw; }
+
+  #pub-slider {
+    margin: 0;
+    text-align: center;
+    width: calc(100vw - 340px);
+    display: inline-block;
+    border-right: 1px solid rgba(0, 0, 0, 0.1); }
+
+  #pubbox {
+    padding-left: 30px; }
+
+  #bottomflex {
+    display: flex;
+    flex: row nowrap;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 0; }
+
+  .pubIcon {
+    float: left; }
+
+  .reference {
+    width: calc(100vw - 440px); } }
+@media (min-width: 960px) {
+  #chrbioS {
+    max-width: 900px; }
+
+  #chrbioS p {
+    font-size: 1.6em;
+    font-weight: 200; }
+
+  #join p {
+    font-weight: 400;
+    font-size: 1.6em; }
+
+  #join a {
+    font-size: 1.4em; } }
