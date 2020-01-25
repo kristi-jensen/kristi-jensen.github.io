@@ -1,0 +1,15 @@
+- name: Home
+  link: /
+  image: -04
+- name: Science
+  link: /science.html
+  image: -02
+- name: People
+  link: /people.html
+  image: -01
+- name: Join Us
+  link: /join.html
+  image: -05
+- name: Contact
+  link: /contact.html
+  image: -03
