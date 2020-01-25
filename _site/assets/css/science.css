@@ -1,0 +1,93 @@
+.nav-ps {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.nav-p p {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 10px; }
+
+.linkBox {
+  color: black;
+  position: absolute;
+  top: -100px; }
+
+.row {
+  background-color: rgba(211, 212, 169, 0.9); }
+
+.rbox {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#030), to(transparent));
+  background-image: -webkit-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: -moz-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: -o-linear-gradient(180deg, transparent, #030, transparent);
+  background-image: linear-gradient(90deg, transparent, #030, transparent);
+  -moz-background-size: 100% 10px;
+  background-size: 100% 10px;
+  background-position: 0 0 ,100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 10px; }
+
+html {
+  background-image: url("/images/purple.svg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 0px 50px; }
+
+.resH {
+  padding: 2px 10px; }
+
+.pubp {
+  background: none; }
+
+.linkBox:hover {
+  text-decoration: none; }
+
+.slideText {
+  max-width: 800px;
+  padding: 6%;
+  text-align: justify;
+  text-align-last: center; }
+
+.slide {
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#textBox {
+  padding: 0 20px 20px 20px;
+  line-height: 4em; }
+
+#meiosis {
+  background-image: url("/images/43um-follicle-copy.jpg");
+  background-position: center; }
+
+#hybridization {
+  background-image: url("/images/tig-slider.jpg");
+  background-position: right bottom;
+  text-align: left; }
+
+#telomerase {
+  background-image: url("/images/t-sphere-slider copy.png"); }
+
+#telomeres {
+  background-image: url("/images/marmorata-chr-spread-copy2.jpg"); }
+
+.slide {
+  padding: 5%; }
+
+@media (min-width: 768px) {
+  .slideText {
+    font-size: 1.2em; }
+
+  #hybST {
+    padding-left: 0px;
+    max-width: 50%;
+    margin: 0; }
+
+  #resImageBox {
+    float: right;
+    margin: 5% 2%; } }
+@media (min-width: 960px) {
+  .slideText {
+    font-size: 1.4em; } }
